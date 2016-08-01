@@ -1,2 +1,13 @@
 # Appveyor should automatically run the tests.
 # For configuration options, visit: https://www.appveyor.com/docs/running-tests
+build: false
+
+init:
+    - SET PATH=c:\php;%PATH%
+
+before_test:
+  composer install --no-interaction --prefer-dist
+
+test_script:
+  vendor/bin/phpunit.bat
+
