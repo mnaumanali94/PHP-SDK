@@ -1,5 +1,5 @@
-﻿node {
-    stage 'Checkout'
+node {
+     stage 'Checkout'
         checkout scm 
 
     stage 'Prepare'
