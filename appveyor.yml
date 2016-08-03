@@ -1,5 +1,7 @@
 # Appveyor should automatically run the tests.
 # For configuration options, visit: https://www.appveyor.com/docs/running-tests
+# Appveyor should automatically run the tests.
+# For configuration options, visit: https://www.appveyor.com/docs/running-tests
 build: false
 shallow_clone: true
 clone_folder: c:\projects\composer

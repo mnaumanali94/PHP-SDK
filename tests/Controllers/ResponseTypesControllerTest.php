@@ -2,7 +2,7 @@
 /*
  * TesterLib
  *
- * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/01/2016
+ * This file was automatically generated for Stamplay by APIMATIC v2.0 on 08/03/2016
  */
 
 use TesterLib\APIException;
@@ -508,7 +508,7 @@ class ResponseTypesControllerTest extends PHPUnit_Framework_TestCase {
         // Test headers
         $headers = [];
         $headers['NauManAli'] = null ;
-        $headers['WaseemHasAn'] = 'is also awesome' ;
+        $headers['WaseemHasAn'] = null ;
         
         $this->assertTrue(TestHelper::areHeadersProperSubsetOf($headers, $this->httpResponse->getResponse()->getHeaders(), true),
             "Headers do not match");
